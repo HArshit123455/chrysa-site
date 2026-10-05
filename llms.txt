@@ -1,0 +1,32 @@
+# Chrysa
+
+> Chrysa is a free, on-device screen time app for Android that never blocks anything — it offers
+> something better to do than scrolling.
+
+Chrysa is a screen time and digital wellbeing app for Android. Unlike blockers, it never prevents
+you from opening an app. When you open an app you tend to open on autopilot, it offers one small
+alternative sized to the time you actually have, and you can open the app anyway. Declining says
+"Not today" and costs nothing.
+
+It reads sleep, steps and screen time from the phone, and draws what you actually did as the land
+outside a window: a tree for a walk, a lit window for an evening with someone, a bird for reading.
+
+Key facts:
+- Free on Google Play. No ads, no subscription, nothing to unlock.
+- No account and no server. Everything lives in a SQLite database on the phone.
+- Works entirely offline. One off-by-default switch sends a rounded location for nearby places and weather.
+- No score and no streaks. Five areas of life shown as dots, never summed.
+- Android only. Version 1.0.0, live October 2026.
+- Made by one person, Harshit Sindhu.
+
+## Pages
+
+- [Home](https://harshit123455.github.io/chrysa-site/): what Chrysa does, what it refuses to do, privacy, and six common questions.
+- [Something better to do than scrolling](https://harshit123455.github.io/chrysa-site/instead-of-scrolling.html): why blocking solves the wrong half of the problem, and concrete things to do with two minutes, ten minutes or an hour.
+- [Compared with other apps](https://harshit123455.github.io/chrysa-site/alternatives.html): an honest comparison with Opal, one sec, Forest and Android Digital Wellbeing, including where Chrysa is the worse choice.
+- [Privacy policy](https://harshit123455.github.io/chrysa-site/privacy.html)
+- [Deleting your data](https://harshit123455.github.io/chrysa-site/delete.html)
+
+## Install
+
+https://play.google.com/store/apps/details?id=com.chrysa.app

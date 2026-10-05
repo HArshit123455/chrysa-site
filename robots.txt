@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://harshit123455.github.io/chrysa-site/sitemap.xml
