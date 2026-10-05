@@ -74,9 +74,9 @@ a:hover { text-decoration-color: var(--gold); }
   min-height: min(96svh, 880px);
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
   overflow: hidden;
   isolation: isolate;
+  padding-top: clamp(26px, 5vh, 52px);
 }
 
 .sky {
@@ -133,10 +133,14 @@ a:hover { text-decoration-color: var(--gold); }
   letter-spacing: 0.3em; text-transform: uppercase;
   color: rgba(255, 255, 255, 0.92);
   text-shadow: 0 1px 12px rgba(6, 12, 30, 0.55);
-  position: absolute; top: clamp(28px, 5vh, 52px); left: 50%;
-  transform: translateX(-50%);
+  /* In the flow, not absolute: the auto bottom margin eats the free space and
+     pushes the headline to the foot of the window, so the two can never
+     collide no matter how short or wide the viewport gets. */
+  position: relative;
   z-index: 3;
   width: var(--col);
+  margin: 0 auto auto;
+  padding-bottom: clamp(26px, 5vh, 56px);
 }
 
 h1 {
